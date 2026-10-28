@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="stories-container">
+      <div class="content">
+        <div class="previous-btn">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M15.75 19.5L8.25 12l7.5-7.5"
+            />
+          </svg>
+        </div>
+
+        <div class="stories"></div>
+
+        <div class="next-btn active">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M8.25 4.5l7.5 7.5-7.5 7.5"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    <div class="stories-full-view">
+      <div class="close-btn">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="w-6 h-6"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M6 18L18 6M6 6l12 12"
+          />
+        </svg>
+      </div>
+
+      <div class="content">
+        <div class="previous-btn">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M15.75 19.5L8.25 12l7.5-7.5"
+            />
+          </svg>
+        </div>
+
+        <div class="story">
+          <img src="images/3.jpg" alt="" />
+          <div class="author">Author</div>
+        </div>
+
+        <div class="next-btn">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M8.25 4.5l7.5 7.5-7.5 7.5"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+    <script>
+      const allStories = [
+  {
+    id: 0,
+    author: "Luna Belle",
+    imageUrl: "images/1.jpg",
+  },
+
+  {
+    id: 1,
+    author: "Willow Grace",
+    imageUrl: "images/2.jpg",
+  },
+
+  {
+    id: 2,
+    author: "Emma Smith",
+    imageUrl: "images/3.jpg",
+  },
+
+  {
+    id: 3,
+    author: "Ruby Skye",
+    imageUrl: "images/4.jpg",
+  },
+
+  {
+    id: 4,
+    author: "Live Blogger",
+    imageUrl: "images/5.jpg",
+  },
+
+  {
+    id: 5,
+    author: "Hazel Jade",
+    imageUrl: "images/6.jpg",
+  },
+
+  {
+    id: 6,
+    author: "Eden Faith",
+    imageUrl: "images/7.jpg",
+  },
+
+  {
+    id: 7,
+    author: "Flora Maeve",
+    imageUrl: "images/8.jpg",
+  },
+
+  {
+    id: 8,
+    author: "Nathaniel Hayes",
+    imageUrl: "images/9.jpg",
+  },
+
+  {
+    id: 9,
+    author: "Everett Lee",
+    imageUrl: "images/10.jpg",
+  },
+
+  {
+    id: 9,
+    author: "Owen",
+    imageUrl: "images/11.jpg",
+  },
+
+  {
+    id: 9,
+    author: "Caleb Knox",
+    imageUrl: "images/12.jpg",
+  },
+
+  {
+    id: 9,
+    author: "Felix",
+    imageUrl: "images/13.jpg",
+  },
+];
+    </script>
+
+    <script src="main.js"></script>
+  </body>
+</html>

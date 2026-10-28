@@ -1,0 +1,59 @@
+<link rel="stylesheet" href="../css/bootstrap.css">
+
+<style>
+    label,button,h2{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+    }
+    .card{
+        border: solid 2px green !important  ;
+    }
+    form{
+        border-top: solid 2px green !important ;
+        padding-top: 10px;
+         margin-top: -10px;
+    }
+    h2{
+        color: rgb(30, 94, 30) !important;
+    }
+</style>
+<div class="card-body" dir="rtl">
+    <div class="card">
+        <h2 class="text-center mt-3">إضافة منتجات</h2>
+        <hr>
+        <form action="#" method="post" class="row row-cols-md-2 mr-4 ml-2">
+    <div class="card-1 ">
+        <div class="form-group  col-md-8">
+                <label for="">أسم المنتج</label>
+            <input type="text" placeholder="أدخل اسم المنتج" class="form-control" name="name" required >
+        </div>
+        <div class="form-group  col-md-8">
+            <label for="">السعر </label>
+            <input type="text" placeholder="أدخل سعر المنتج" class="form-control"  name="price" id="">
+        </div>
+        <div class="form-group col-md-9">
+            <label for="">تفاصيل المنتج</label>
+            <textarea name="properties" placeholder="أدخل تفاصيل المنتج" class="form-control" cols="2" rows="5"></textarea>
+        </div>
+    </div>
+        <div class="card-2">
+            <div class="form-group">
+            <label for="">صورة المنتج</label>
+            <input type="file" class="form-control-file" name="img-1" alt="imgage">
+        </div>
+        <div class="form-group">
+            <label for="">صورة المنتج</label>
+            <input type="file" class="form-control-file" name="img-2"  alt="imgage">
+        </div>
+        <div class="form-group">
+            <label for="">صورة المنتج</label>
+            <input type="file" class="form-control-file" name="img-3" alt="imgage">
+        </div>
+        </div>
+        <div class="card-1 col-md-10 mt-2 mr-5">
+        <button type="submit" class="btn btn-primary btn-lg">إضافة المنتج </button>
+        <button type="reset" class="btn btn-warning btn-lg">إلغاء</button>
+    </div>
+        </form>
+    </div>
+</div>
